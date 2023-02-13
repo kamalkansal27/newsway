@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NavBar */
+
+nav{
+    padding: 8px;
+    background-color: #2C3333;
+    display: flex;
+}
+.searchnav{
+    margin: 0 26vw 0 0
+}
+#searchinp{
+    height: 7vh;
+    width: 35vw;
+    background-color: #404258;
+    color: white;
+    font-size: large;
+    border: 0.5mm solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+#btn{
+    height: 7vh;
+    width: 6vw;
+    border-radius: 10px;
+}
+#btn :hover{
+    cursor: pointer;
+
+}
+.title{
+    margin-top: 11px;
+    margin-left: 10px;
+    color: white;
+    font-size: x-large;
+}
+
+/* Tab */
+
+.tab{
+    display: flex;
+    justify-content: center;
+    background-color: #2C3333;
+}
+.tab a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: large;
+}
+
+/* News Block */
+
+.date-time{
+    margin: 20px 0 0px 20px;
+    width: 14vw;
+    height: 10vh;
+}
+.Briefing{
+    margin-bottom: 5px;
+}
+#time{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.news-container{
+    padding: 10px 0 0 6vw;
+}
+.news{
+    width: 20vw;
+}
+.btn-custom{
+    display: block;
+    justify-content: center;
+
+}

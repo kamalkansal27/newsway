@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsWay - A News Application</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <nav class="navbar">
+    <div class="title">NewsWay</div>
+    <div class="searchnav">
+      <form role="search">
+        <input type="text" name="q" id="searchinp" placeholder="Search">
+        <input type="hidden" name="pageno" value="1" id="searchinp" placeholder="Search">
+        <button type="submit" id="btn"><i class="fa-solid fa-1x fa-magnifying-glass"></i></button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Tab -->
+  <div class="tab">
+    <a href="/?q=World&pageno=1" class="tabitem">World</a>
+    <a href="/?q=India&pageno=1" class="tabitem">India</a>
+    <a href="/?q=Buisness&pageno=1" class="tabitem">Buisness</a>
+    <a href="/?q=Cricket&pageno=1" class="tabitem">Cricket</a>
+    <a href="/?q=Technology&pageno=1" class="tabitem">Technology</a>
+    <a href="/?q=Science&pageno=1" class="tabitem">Science</a>
+    <a href="/?q=Health&pageno=1" class="tabitem">Health</a>
+    <a href="/?q=Weather&pageno=1" class="tabitem">Weather</a>
+  </div>
+
+  <div class="wholebody">
+    <!-- News Block -->
+    <div class="container">
+      <div class="date-time">
+        <h3 class="Briefing">Your Briefing</h3>
+        <span id="time"></span>
+      </div>
+
+    </div>
+    <div class="news-container container mx-auto">
+      <!-- News starts here -->
+
+      <div id="content" class="row">
+        <div class="d-flex justify-content-center">
+          <img src="https://samherbert.net/svg-loaders/svg-loaders/oval.svg" style="filter : invert(1)" alt="">
+        </div>
+      </div>
+      <!-- News end here -->
+
+      <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" id="prev" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" id="one" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" id="two" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" id="three" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" id="nxt" href="#">Next</a></li>
+      </ul>
+
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/836d61a9e4.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- 85f71b57d99a40818965af59be1fa65c -->
